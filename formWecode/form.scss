@@ -49,6 +49,7 @@ main{
             &:hover{
                 cursor: pointer
             }
+    }
     .border{
     border-radius: 10px;
     height: 11%;
@@ -65,16 +66,7 @@ main{
     .color{
         border-color: $colorBlack
     }
-
-
 }
-
-
-
-
-}
-
-
 .bar{
     display: flex;
     background: $colorYellow;
