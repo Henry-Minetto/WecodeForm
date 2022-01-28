@@ -27,7 +27,7 @@ $(".dataSend").click(function(){
     $(".dadosP").toggleClass("left")
     $(".overlay").toggleClass("left")
     //POP UP DADOS
-    let i = 1;
+    let i = 0;
     while (i < dados.length) {
     let ulCreate = $("<ul></ul>").appendTo(".divDados");
     let liName = $("<li></li>").appendTo(ulCreate);
