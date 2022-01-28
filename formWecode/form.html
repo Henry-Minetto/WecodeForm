@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./form.css">
+    </head>
+    <body>
+        <section class="container">
+            <main>
+                <section class="container1">
+                    <div class="a">
+                        <h1>Fale com a wecode</h1>
+                        <div class="bar"></div>
+                        <h2>Para falar com a wecode utilize o formulário abaixo, ou se preferir, nos contate pelo nosso telefone.</h2>
+                    </div>
+                </section>
+                <div class="bloco">
+                    <form action="" method="post" class="formulario">
+                        <input  type="text" class="name border color" placeholder="Nome*" autofocus required>
+                        <input type="text" class="enterprise border color" placeholder="Empresa*" required>
+                        <input type="tel"  class="phone border color" placeholder="Telefone*" maxlength="11" required>
+                        <input type="email" class="email border color" placeholder="Email*" required>
+                        <textarea class="message border color" placeholder="Nos envie uma mensagem por aqui!*"></textarea>
+                        <button type="button" class="enviar button border">ENVIAR</button>
+                        <button type="button" class="border dataSend">Dados preenchidos</button>
+                    </form>        
+                </div>
+                <div class="overlay left"></div>
+                <div class="dadosP left">
+                    <h2>Dados preenchidos</h2>
+                    <div class="divDados"></div>
+                </div>
+                <div class="concluido left">
+                    <p class="paragrafo"></p>
+                </div>
+                
+            </main>      
+        </section>      
+    </body>
+    <script language="javascript" src="./jQuery.min.js" type="text/javascript"></script>
+    <script language="javascript" src="./form.js" type="text/javascript"></script>
+</html>
